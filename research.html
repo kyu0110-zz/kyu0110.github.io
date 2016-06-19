@@ -35,10 +35,13 @@
 The theme of my research is developing high-resolution atmospheric chemistry models and examining scale issues in these models.
 </p>
 
-<h2>Transport errors in offline chemical transport modeling</h2>
-<p>
-Effect of spatial resolution on transport processes in a chemical transport model
-GEOS-Chem is driven by assimilated meteorological fields from the NASA Global Modeling and Assimilation Office (GMAO) Goddard Earth Observing System, Version 5 (GEOS-5), which is produced at a native resolution of 0.25x0.3125 degree. Averaging high resolution meteorological fields to drive global GEOS-Chem (2x2.5 or 4x5 degree resolution) leads to reduced vertical transport. I am working to quantify these biases, understand how different pathways are affected by the averaging of subgrid scale information and how transport and removal processes are coupled and affected by grid resolution, and develop a computationally efficient method of reducing these biases. </p>
+<h2>Errors in offline chemical transport modeling</h2>
+<p> Due to the high computational cost, chemical transport models (CTMs) are typically operated decoupled from its meteorological inputs, often at a coarser temporal and spatial resolution than the meteorological model.
+This temporal and spatial discretization, as well as non-linear coupling between chemistry and transport, leads to loss of information that can induce errors in the modeled chemical composition of the atmosphere.
+In this work, we quantify these errors and find that spatial averaging is the largest source of error in offline chemical transport modeling, with coarse-resolution models having reduced vertical transport. We then develop a parameterization to address resolution dependence in vertical transport in the GEOS-Chem CTM.
+<br>
+Manuscript in preparation
+</p>
 
 <h2>Sensitivity to grid resolution in the ability of a chemical transport model to simulate observed oxidant chemistry under high-isoprene conditions</h2>
 <p>The inability to resolve subgrid scale processes has been shown to lead to biases in chemical transport models (CTMs). Increasing the spatial resolution of a chemical transport model may improve simulations but can be computationally expensive. Using observations from the SEAC4RS aircraft campaign, we evaluate the effect of chemical non-linearity on the ability of a CTM to simulate the chemical interactions in the Southeast US, a region of high isoprene emissions. We find that at higher spatial resolutions, models are better able to simulate the chemical pathways of ozone precursors, but the overall effect on regional mean concentrations is small. This implies that for regional boundary layer applications, coarse resolution models are adequate. </p>
