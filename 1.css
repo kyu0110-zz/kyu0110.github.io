@@ -20,14 +20,6 @@ a:hover {
 	text-decoration:none;
 }
 
-#wrapper {
-	background:#fff;
-	max-width:900px;
-	width:expression(this.width > 320 ? "320px" : this.width);
-	min-width:760px;
-	margin:0 auto;
-}
-
 * html #wrapper
 {
 	w\idth: expression(document.documentElement.clientWidth > 900 ? "900px" : "auto");
@@ -153,6 +145,13 @@ ul#nav li a em {
     padding:0px 0px 0px 5px;
 }
 
+#content h4 {
+	font:120% Trebuchet MS;
+	color:#444;
+	margin:15px 15px 5px 15px;
+    padding:0px 0px 0px 5px;
+}
+
 #content a {
     color:#000;
     text-decoration:none;
@@ -164,39 +163,15 @@ ul#nav li a em {
 }
 
 blockquote {
-	margin:20px 20px 20px 20px;
+	margin:0px 15px 10px 10px;
 }
 
 #content ul {
 	margin:0 0 0 40px;
 }
 
-#content form {
-	padding:10px;
-	margin:20px;
-	border:1px solid #ccc;
-}
-
-#content form label {
-	font-weight:bold;
-	color:#444;
-	display:block;
-}
-
-#content form input {
-	width:96%;
-	border:1px solid #ddd;
-	padding:4px;
-	margin:5px 0 10px 0;
-	font:90% Verdana;
-}
-
-#content form textarea {
-	width:96%;
-	border:1px solid #ddd;
-	padding:4px;
-	margin:5px 0 10px 0;
-	font:90% Verdana;
+#caption {
+    margin:0 0px 0 0px;
 }
 
 #footer {
