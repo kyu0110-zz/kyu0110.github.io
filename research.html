@@ -35,14 +35,22 @@
 The overarching theme of my research is understanding how we can better model the chemical composition of the atmosphere and examining the tradeoff between model complexity and model skill, with application to both air quality and global atmospheric composition. As computing power has increased over the years, atmospheric models have become increasingly complex and operate at increasingly higher spatial and temporal resolution. While this allows the models to resolve finer details and smaller-scale processes, it is unclear that the increase in model complexity is worth the increase in computational cost. I examine this issue by looking at the effect of model resolution on the ability to simulate chemical non-linearities (project 1) and the effect of both temporal and spatial discretization on transport processes (project 2). </p>
 <p>To this end, I have worked on development of a high-resolution nested modeling capability over North America for the GEOS-Chem model and was part of the team that first deployed this high resolution model in a field campaign. 
 </p>
+<p> I also spent some time working on building a web application that allows policy-makers to evaluate how land use change affects air quality in Southeast Asia.</p> 
 
 <h2>2. Errors in offline chemical transport modeling</h2>
 <p> Due to the high computational cost, chemical transport models (CTMs) are typically operated decoupled from its meteorological inputs, often at a coarser temporal and spatial resolution than the meteorological model.
 This temporal and spatial discretization, as well as non-linear coupling between chemistry and transport, leads to loss of information that can induce errors in the modeled chemical composition of the atmosphere.
 In this work, we quantify these errors and find that spatial averaging is the largest source of error in offline chemical transport modeling, with coarse-resolution models having reduced vertical transport. We then develop a parameterization to address resolution dependence in vertical transport in the GEOS-Chem CTM.
-<br>
-Manuscript in preparation
 </p>
+<h3>References:</h3>
+<h4>Publications:</h4>
+<ul>
+    <li><a href="https://www.geosci-model-dev.net/11/305/2018/">
+            <b>Yu, K.</b>, Keller, C. A., Jacob, D. J., Molod, A. M., Eastham, S. D., and Long, M. S.: Errors and improvements in the use of archived meteorological data for chemical transport modeling: an analysis using GEOS-Chem v11-01 driven by GEOS-5 meteorology, Geosci. Model Dev., 11, 305-319, https://doi.org/10.5194/gmd-11-305-2018, 2018.</a></li>
+    </ul>
+<h4>Presentations:</h4>
+<ul>
+    <li><b>Yu, K.</b>, Keller, C. A., Jacob, D. J., Molod, A. M., Eastham, S. D., and Long, M. S. (2017), Errors and improvements in the use of archived meteorological data for chemical transport modeling, presented at the 2017 International GEOS-Chem Users’ Meeting, Cambridge, Massachusetts, 1-4 May.</li></ul>
 
 <h2>1. Sensitivity to grid resolution in the ability of a chemical transport model to simulate observed oxidant chemistry under high-isoprene conditions</h2>
 <p>The inability to resolve subgrid scale processes has been shown to lead to biases in chemical transport models (CTMs). Increasing the spatial resolution of a chemical transport model may improve simulations but can be computationally expensive. Using observations from the SEAC4RS aircraft campaign, we evaluate the effect of chemical non-linearity on the ability of a CTM to simulate the chemical interactions in the Southeast US, a region of high isoprene emissions. We find that at higher spatial resolutions, models are better able to simulate the chemical pathways of ozone precursors, but the overall effect on regional mean concentrations is small. This implies that for regional boundary layer applications, coarse resolution models are adequate. </p>
@@ -56,6 +64,7 @@ Manuscript in preparation
 <h4>Presentations:</h4>
 <ul>
   <li><a href="http://acmg.seas.harvard.edu/presentations/IGC7/talks/ThuA_TropO3_yu_karen_1_mac.pdf"><b>Yu, K.</b>, Jacob, D. J., Fisher, J., Kim, S., Travis, K., Zhu, L., Yantosca, R., Sulprizio, M., Ryerson, T., Wisthaler, A., Fried, A., Wennberg, P., and the SEAC4RS Science Team (2015), Modeling oxidant chemistry in a high-isoprene atmospheric environment: sensitivity to model resolution and constraints from aircraft observations, presented at 2015 International GEOS-Chem Users' Meeting, Cambridge, Massachusetts, 4-7 May.</a></li>
+  <li><b>Yu, K.</b>, Jacob, D. J., Fisher, J., Kim, S., Travis, K., Zhu, L., Yantosca, R., Sulprizio, M., Ryerson, T., Wisthaler, A., Fried, A., Wennberg, P., and the SEAC4RS Science Team (2015), Modeling oxidant chemistry in a high-isoprene atmospheric environment: sensitivity to model resolution and constraints from aircraft observations, presented at the SEAC4RS Science Team Meeting, 28-30 April.</li>
   <li><a href="http://abstractsearch.agu.org/meetings/2014/FM/A33B-3173.html"><b>Yu, K.</b>, Jacob, D. J., Travis, K., Kim, S., Fisher, J., Zhu, L., Yantosca, R., and Sulprizio, M. (2014), Impact of Grid Resolution on Chemical Transport Modeling in the Southeast US: GEOS-Chem Model Constrained with Observations from SEAC4RS Aircraft Campaign, Abstract A33B-3173 presented at 2014 Fall Meeting, AGU, San Francisco, Calif., 15-19 Dec.</a></li>
 </ul>
 <h4>Co-authored publications:</h4>
@@ -77,8 +86,8 @@ Manuscript in preparation
 <!-- Footer -->
 <div id="footer">
 <p><a href="http://acmg.seas.harvard.edu">Harvard Atmospheric Chemistry Modeling Group</a><br>
-Pierce Hall 108, 29 Oxford St., Cambridge, MA 02138 <br>
-kyu [at] seas [dot] harvard [dot] edu </p>
+Pierce Hall, 29 Oxford St., Cambridge, MA 02138 <br>
+kyu0110 [at] gmail [dot] com </p>
 
 <blockquote><a href="https://www.linkedin.com/in/karen-yu-16894534">LinkedIn</a><br>
 <a href="https://github.com/kyu0110">Github</a><br>
